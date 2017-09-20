@@ -35,7 +35,9 @@ const AlbumDetail = ({ album }) => {
                 /> 
             </CardSection>
             <CardSection>
-                <Button press={() => Linking.openURL(url)} />
+                <Button press={() => Linking.openURL(url)}>
+                    Buy Now    
+                </Button>
                     {/* onPress is unrelated to touchableOpacity method onPress */}
             </CardSection>
         </Card>
