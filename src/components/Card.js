@@ -1,6 +1,6 @@
 import React from 'react';
 import { View } from 'react-native';
-import CardSection from './CardSection';
+
 
 const Card = (props) => {
     return (
